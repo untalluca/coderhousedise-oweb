@@ -8,16 +8,17 @@
 
 html {scroll-behavior: smooth}
 
-section.fondointro { background-color: black;    
+section.fondointro { 
+        background-color: black;    
         background-image: url("../imagenes/delay\ lama\ intro.jpeg");
         background-size: 10px;
         background-repeat: no-repeat;
         background-position: center;
         margin-top: 0px;
         display: inline-block;
-        position: static;
+        position: relative;
         width: 100%;
-        z-index: 1;
+        
     }
 
 body {text-align: center; }
@@ -53,28 +54,7 @@ html {background-image: url("../imagenes/fotoalbum.jpg");
 .inicio       {text-align: left;
                word-spacing: 10px }
   
-  header .barra_fija li {display: inline-block;
-                        position: sticky;
-                        text-align: center;
-                        word-spacing: 20 px;  
-                        margin: 0 20px;
-                        padding-top: 10px;   
-                        background-color: rgba(0, 0, 0, ,3);
-                        top: 0.25px;
-                        
-                    
-
-                                     }
-header nav{position: fixed;
-           display: block;
-           top: 0;
-           background-color: rgba(2, 0, 0, 0.4);
-           width: 100vh  
-        }                                         
- 
-}
-
-
+  
 
  body{background-color: rgba(225, 225, 225 , 0.4)}
 
@@ -103,11 +83,11 @@ main p {padding: 45px;
        padding-top:  100px;
        font-size: 43px;
        font-weight: lighter;
-       text-align: center    
+       text-align: center ;
     }
 
 header {
-    background-image: url(../imagenes/delay\ lama\ intro.jpg);
+   background-image: url("../imagenes/delay\ lama\ intro.jpg"); 
     background-repeat: no-repeat;
     background-position: center;
     background-color: black;
@@ -119,48 +99,59 @@ header {
     color: blanchedalmond;
     font-family:'Racing Sans One', cursive;
     font-size: 30px;
-    margin-top: 10px;
-
-  }
+    
 }
 
-header nav {
+header nav  {
     width: 100%;
-    display: inline-block;
-    position: sticky;
+    position: fixed;
     text-align: center;
+    display: flex;
+    justify-content: center;
     word-spacing: 20 px;  
      margin: 0 20px;
      padding-top: 10px;   
-     background-color: rgba(0, 0, 0, ,3);
-     top: 0.25px;
-     color: blanchedalmond;
+     top: 0px;
+     background-color: rgba(0, 0, 0, 0.3);
+     z-index: 1;
+    }
+
+/*
+ header nav ul li {
+    display: inline-block;
+    margin: 0 25px;
 }
 
-ul:hover li a { transform: scale(1.5);
-    opacity: .5; 
-    filter: blur(3px);
- }
+*/
 
-ul li a:hover { transform: scale(2);
-   opacity: 1; 
-   filter: blur(0); ul:hover li a { transform: scale(1.5);
-    opacity: .5; 
-    filter: blur(3px);
- }
+ul {display: flex;
+    justify-content: center;
+    margin: 0 20px;
+       }
 
-ul li a:hover { transform: scale(2);
-   opacity: 1; 
-   filter: blur(0);  
-   }
 
- header ul li a:hover  {color:#871287}
-header ul li a:active {color: palevioletred}
+header nav ul li  a    {color: blanchedalmond;
+                        transition: .6s;    
+                        font-size: 30px;   }
+
+
+nav ul li a:hover {color:#871287}
+nav ul li a:active {color: palevioletred}
+
+nav ul:hover li a { font-size:  px;
+                    opacity: (.5); 
+                    filter: blur(3px);
+                 }  
+
+nav ul li a:hover { font-size:  45px;
+                    opacity: 1; 
+                    filter: blur(0);
+}   
 
 header form {
-    position: absolute;
-    right: 20px;
-    top: 40%;
+              position: absolute;
+              right: 20px;
+              top: 40%;
 }
 
 
