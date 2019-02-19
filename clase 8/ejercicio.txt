@@ -1,0 +1,11 @@
+Desde el momento en que lean esto, hasta las 19.20, vamos a aprovechar para poner en práctica lo visto de Box Model.
+
+Avanzar con el proyecto (aunque no esté corregido el desafío de CSS), y aplicar:
+
+- Reseteo de estilos del navegador (El * con las propiedades en 0).
+- Tamaño (width y/o height), solamente en caso de ser necesario.
+- Padding, border, margin.
+- Display (y si es necesario, vertical align).
+- Float si quieren aprovechar para posicionar algún elemento, aunque recuerden que no es necesario que lo usen.
+
+------ ESTO SE SUBE AL DESAFÍO 4 (BOX MODELING 1) ------

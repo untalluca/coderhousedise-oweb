@@ -1,0 +1,48 @@
+﻿- Formatos:
+ 
+
+ - JPG / JPEG:
+      
+  - Comprime mucho (menos peso).
+      
+  - Bastante pérdida de calidad.
+      
+  - No soporta transparencia.
+   
+
+ - PNG
+     
+   - Soporta transparencia.
+   
+   - Comprime poco (mayor peso).
+     
+   - Alta calidad.
+ 
+
+ - GIF / GIF ANIMADO
+   
+     - Soporta transparencia.
+     
+     - Comprime un montón.
+      
+     - Pésima calidad.
+   
+
+ - WEBP
+    
+    - Comprime mucho.
+  
+    - Soporta transparencia.
+    
+    - Alta calidad.
+     
+    - Solo funcionan en Chrome.
+-
+
+
+
+
+ Tamaños:
+    - Como máximo 1920px
+- Peso:
+    - Máximo 200kb
